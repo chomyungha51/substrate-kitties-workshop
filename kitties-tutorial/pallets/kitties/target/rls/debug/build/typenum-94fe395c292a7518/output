@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/Users/myunghacho/Desktop/substrate-kitties-workshop/kitties-tutorial/pallets/kitties/target/rls/debug/build/typenum-94fe395c292a7518/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/Users/myunghacho/Desktop/substrate-kitties-workshop/kitties-tutorial/pallets/kitties/target/rls/debug/build/typenum-94fe395c292a7518/out/op.rs

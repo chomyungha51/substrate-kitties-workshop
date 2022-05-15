@@ -8,7 +8,7 @@ use sp_core::{sr25519, Pair, Public};
 use sp_finality_grandpa::AuthorityId as GrandpaId;
 use sp_runtime::traits::{IdentifyAccount, Verify};
 // 38.
-// use node_kitties_runtime::SubstrateKittiesConfig;
+use node_kitties_runtime::SubstrateKittiesConfig;
 
 // The URL for the telemetry server.
 // const STAGING_TELEMETRY_URL: &str = "wss://telemetry.polkadot.io/submit/";
@@ -156,10 +156,10 @@ fn testnet_genesis(
 		},
 		transaction_payment: Default::default(),
 		// 39.
-		/*
+		
 		substrate_kitties: SubstrateKittiesConfig {
 			kitties: vec![],
 		},
-		*/
+		
 	}
 }

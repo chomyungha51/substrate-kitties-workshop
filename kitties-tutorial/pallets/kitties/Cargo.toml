@@ -22,16 +22,15 @@ frame-system = { default-features = false, version = "4.0.0-dev", git = "https:/
 frame-benchmarking = { default-features = false, version = "4.0.0-dev", git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.17", optional = true }
 
 # 2. cut sp_io's dependency in dev-dependencies and paste it here
-# sp-io = { default-features = false, version = "5.0.0", git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.17" }
+sp-io = { default-features = false, version = "5.0.0", git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.17" }
 
 # 8. add serde to use Serialize, Deserialize
-# serde = "1.0.137"
+serde = "1.0.137"
 
 # 19. add log
-#log = "0.4"
+log = "0.4"
 
 [dev-dependencies]
-sp-io = { default-features = false, version = "5.0.0", git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.17" }
 sp-core = { default-features = false, version = "5.0.0", git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.17" }
 sp-runtime = { default-features = false, version = "5.0.0", git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.17" }
 
